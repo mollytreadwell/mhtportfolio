@@ -20,9 +20,13 @@ export default function Navi(){
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/Portfolio">Portfolio</a>
+              <a class="nav-link" href="/Portfolio">Applications</a>
             </li>
             
+            <li class="nav-item">
+              <a class="nav-link" href="/SocialMedia">Social Media</a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link" href="/Contact">Contact</a>
             </li>

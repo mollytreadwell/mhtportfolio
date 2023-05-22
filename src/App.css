@@ -73,4 +73,27 @@ p {
 
 img {
   align-content: center;
+  border: 5px solid #3E3832;
 }
+
+img:hover {
+  border-width: 7px;
+  border-image: linear-gradient(#3E3832);
+}
+
+
+.about {
+  background-color: 		#3E3832;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #3E3832;
+}
+
+iframe:hover {
+  border-width: 7px;
+  border-image: linear-gradient(#3E3832);
+}
+

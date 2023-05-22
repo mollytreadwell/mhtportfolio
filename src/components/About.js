@@ -3,9 +3,11 @@ import React from "react";
 export default function About(){
     return (<div class="homepg">
         <h1> H     e     l     l     o     ! </h1>
-        <img src="molly.jpg" height="600" width="710" alt="profile"/>
+        <div className="border">
+        <img src="molly.jpg" height="600" width="750" alt="profile"/>
+        </div>
         <br/><br/>
-        <p>
+        <p className="about">
             My name is Molly Treadwell, and I'm a Full Stack Web Developer. In March 2023, I completed the MIT xPro Full Stack Web Development course, which has equipped me with the latest skills and techniques in web development.
             <br/>
             MIT xPRO revolves around the MERN stack, that is MongoDB, Express, Reactjs and Nodejs. The majority of my applications have been created with React frameworks, including Create-React-App and Nextjs. I particularly enjoyed expanding on my Nextjs projects due to their excellent routing and easy deployment service through Vercel. 
